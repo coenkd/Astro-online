@@ -5,6 +5,8 @@ title: My sample book
 author: The Jupyter Book Community
 logo: logo.png
 
+baseurl: https://coenkd.github.io/Astro-online/
+
 parse:
   myst_enable_extensions:
     - amsmath
@@ -37,6 +39,6 @@ html:
   mathjax_config:
     TeX:
       equationNumbers: { autoNumber: "AMS" }
-  baseurl: https://coenkd.github.io/Astro-online/
+
 
 
