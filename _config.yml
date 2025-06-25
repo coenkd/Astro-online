@@ -37,4 +37,6 @@ html:
   mathjax_config:
     TeX:
       equationNumbers: { autoNumber: "AMS" }
+  baseurl: https://coenkd.github.io/Astro-online/
+
 
