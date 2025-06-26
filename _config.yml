@@ -5,7 +5,14 @@ title: NLT module Astrobiologie
 author: Coen Klein Douwel
 logo: logo.jpg
 
-language: nl
+sphinx:
+  language: nl
+  locale_dirs: [
+    "/home/coen/jupyterbook_env/lib/python3.12/site-packages/sphinx_book_theme/locale"
+  ]
+  config:
+    templates_path: ["_templates"]
+
 
 copyright: '2025' 
 
@@ -40,6 +47,7 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  theme: sphinx_book_theme
   mathjax_config:
     TeX:
       equationNumbers: { autoNumber: "AMS" }
@@ -47,7 +55,8 @@ html:
     - _static/custom.css
   extra_footer: |
    <img src="_static/cc.svg" alt="BY" style="height:1em; vertical-align:middle;"><img src="_static/by.svg" alt="BY" style="height:1em; vertical-align:middle;">
-
+  extra_templates:
+    - components/prev-next.html
 
 
 

@@ -1,4 +1,4 @@
-# IV De atmosfeer van een exoplaneet
+# 4. De atmosfeer van een exoplaneet
 
 <span style="color: green;"><em>expertgroep natuurkunde</em></span>
 

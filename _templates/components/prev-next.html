@@ -1,0 +1,20 @@
+<div class="prev-next-area">
+
+  {% if prev and prev.docname %}
+    <a class="left-prev" href="{{ pathto(prev.docname) }}" style="text-decoration: none;">
+      ← Vorige: {{ prev.title }}
+    </a>
+  {% else %}
+    <span class="left-prev" style="color: grey;">← Geen vorige pagina</span>
+  {% endif %}
+
+  {% if next and next.docname %}
+    <a class="right-next" href="{{ pathto(next.docname) }}" style="text-decoration: none;">
+      Volgende: {{ next.title }} →
+    </a>
+  {% else %}
+    <span class="right-next" style="color: grey;">Geen volgende pagina →</span>
+  {% endif %}
+
+</div>
+
