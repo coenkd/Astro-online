@@ -1,4 +1,4 @@
-# III Bewoonbaarheid van planeten
+# 3. Bewoonbaarheid van planeten
 
 <span style="color: green;"><em>expertgroep natuurkunde</em></span>
 

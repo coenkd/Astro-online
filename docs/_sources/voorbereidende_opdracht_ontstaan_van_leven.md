@@ -1,5 +1,5 @@
 
-#  II Het ontstaan van leven
+#  2. Het ontstaan van leven
 
 ## Generatio Spontanea
 
