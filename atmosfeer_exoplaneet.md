@@ -1,6 +1,10 @@
-# De atmosfeer van een exoplaneet
+# IV De atmosfeer van een exoplaneet
+
+<span style="color: green;"><em>expertgroep natuurkunde</em></span>
+
 
 ## Voorkennis: fluxdichtheid, magnitude en fotonen
+
 
 Van oudsher werden sterren geklassificeerd op basis van hun helderheid aan de hemel. De Griekse astronoom Hipparchus stelde als eerste een verdeling in magnitude op, waarbij de helderste sterren magnitude 1 hadden en de zwakste sterren magnitude 6.
 

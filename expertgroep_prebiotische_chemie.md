@@ -1,4 +1,5 @@
-# Vragen – Expertgroep Prebiotische Chemie
+# V Prebiotische Chemie
+<span style="color: green;"><em>expertgroep biologie en scheikunde</em></span>
 
 ## Inleiding
 In de expertgroep prebiotische chemie start je met twee experimenten. In de wachttijden en na afloop van de experimenten werk je aan vragen en opdrachten uit dit document. Uiteindelijk zul je expertise moeten kunnen inbrengen bij de voorbereiding van een missie die gericht is op een zoektocht naar leven in of zelfs buiten ons zonnestelsel.

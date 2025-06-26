@@ -1,9 +1,13 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: My sample book
-author: The Jupyter Book Community
-logo: logo.png
+title: NLT module Astrobiologie
+author: Coen Klein Douwel
+logo: logo.jpg
+
+language: nl
+
+copyright: '2025' 
 
 baseurl: https://coenkd.github.io/Astro-online/
 
@@ -39,6 +43,11 @@ html:
   mathjax_config:
     TeX:
       equationNumbers: { autoNumber: "AMS" }
+  extra_css:
+    - _static/custom.css
+  extra_footer: |
+   <img src="_static/cc.svg" alt="BY" style="height:1em; vertical-align:middle;"><img src="_static/by.svg" alt="BY" style="height:1em; vertical-align:middle;">
+
 
 
 

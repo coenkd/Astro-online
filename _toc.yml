@@ -3,10 +3,12 @@
 
 format: jb-book
 root: intro
+
 chapters:
-- file: astrobiologie_opdracht
-- file: voorbereidende_opdracht_ontstaan_van_leven
-- file: bewoonbaarheid_van_planeten 
-- file: atmosfeer_exoplaneet
-- file: expertgroep_prebiotische_chemie  
+  - file: astrobiologie_opdracht
+  - file: voorbereidende_opdracht_ontstaan_van_leven
+  - file: bewoonbaarheid_van_planeten 
+  - file: atmosfeer_exoplaneet
+  - file: expertgroep_prebiotische_chemie  
+  - file: Opdracht LuijtenB
 
