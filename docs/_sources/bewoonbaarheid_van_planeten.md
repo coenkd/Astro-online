@@ -3,7 +3,7 @@
 <span style="color: green;"><em>expertgroep natuurkunde</em></span>
 
 
-## Evenwichtstemperatuur
+## 3.1 Evenwichtstemperatuur
 
 In de voorbereidende opdracht heb je een formule afgeleid waarmee je een ruwe schatting kunt geven van de temperatuur op een planeet. We gingen daarbij uit van stralingsevenwicht: het stralingsvermogen dat de planeet van de ster ontvangt is gelijk aan het stralingsvermogen dat de planeet zelf uitstraalt.
 
@@ -57,7 +57,7 @@ T_p = \left( \frac{(1 - A) \cdot L}{16 \pi \sigma d^2}
 \right)^{1/4}
 $$
 
-## Bewoonbare zone
+## 3.2 Bewoonbare zone
 
 De bewoonbare zone is de zone waarin vloeibaar water op een planeet mogelijk is.
 
@@ -72,7 +72,7 @@ Waarom zou deze aanname onjuist kunnen zijn? Wat is de invloed van de massa van 
 Schrijf de formule voor $T_p$ om naar een uitdrukking waarmee je $d$ kunt berekenen voor het vries- of kookpunt van water.  
 Wat zijn volgens deze aanpak de grenswaarden voor de bewoonbare zone rond de zon, gegeven in AU?
 
-## Gedetailleerder model
+### Gedetailleerder model
 
 Zoals eerder gezegd houdt de eenvoudige aanpak geen rekening met het broeikaseffect of albedo. Deze factoren beïnvloeden de ligging van de bewoonbare zone.
 
@@ -111,7 +111,7 @@ Conservatieve grenzen van de habitable zone (AU):
 Laat zien dat dit de grenswaardes zijn voor de habitable zone rond de zon. Vergelijk dit met opdracht 2.  
 Vallen Mars en Venus binnen deze grenzen?
 
-## Rekenen aan exoplaneten
+## 3.3 Rekenen aan exoplaneten
 
 Bezoek: [https://phl.upr.edu/hwc](https://phl.upr.edu/hwc)  
 De lijst toont potentieel bewoonbare exoplaneten. De benodigde gegevens staan per planeet vermeld.
@@ -131,7 +131,7 @@ b) Doe hetzelfde voor twee andere stelsels.
 Bereken voor de gevonden exoplaneten $S_{eff}$ en vergelijk met de opgegeven flux $S$ in de tabel.  
 Bespreek eventuele verschillen.
 
-## Earth Similarity Index en Planet Habitability Index
+## 3.4 Earth Similarity Index en Planet Habitability Index
 
 De bewoonbare zone geeft een eerste indicatie op basis van afstand tot de ster. Als er meer data is (massa, straal, temperatuur), dan kunnen aanvullende indices worden gebruikt:
 

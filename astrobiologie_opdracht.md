@@ -12,7 +12,7 @@ En als we aannemen dat ergens buiten de aarde sporen van leven gevonden zouden k
 
 Tijdens het doorlopen van de module zul je er achter komen dat over veel zaken nog een verhitte discussie wordt gevoerd: we weten nog niet hoe het precies zit!
 
-## De Drakevergelijking
+## 1.1 De Drakevergelijking
 
 In 1950 waren de natuurkundige **Enrico Fermi** en zijn collega’s tijdens een lunchpauze verwikkeld in een discussie over UFO’s en de mogelijkheid van interstellaire reizen. Daarbij stelde Fermi de vraag: _“Waar is iedereen?”_.
 
@@ -47,7 +47,7 @@ $$
 
 3. Welke aanname doen we hiermee over een planeet waar zich eenmaal leven heeft ontwikkeld?
 
-## Exoplaneten
+## 1.2 Exoplaneten
 
 Het aantal sterren in de Melkweg is redelijk goed bekend: ongeveer **10¹¹ sterren**. Onder deze sterren bevinden zich allerlei typen: **witte dwergen, superreuzen, variabele sterren, dubbelsterren, neutronensterren**, etc.
 
@@ -62,7 +62,7 @@ Sinds de eerste ontdekking van een exoplaneet in 1995 zijn er duizenden planeten
 
 6. Waarom werden er met deze methoden in het begin vooral grote planeten ontdekt die heel dicht bij hun moederster stonden?
 
-## Bewoonbare planeten
+## 1.3 Bewoonbare planeten
 
 Een planeet moet aan bepaalde voorwaarden voldoen om leven mogelijk te maken. We nemen aan dat **vloeibaar water en een atmosfeer** essentieel zijn. Een grove schatting van de temperatuur van een planeet kan worden bepaald door **stralingsevenwicht**:
 

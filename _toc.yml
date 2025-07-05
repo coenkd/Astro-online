@@ -1,6 +1,5 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
-
 format: jb-book
 root: intro
 
@@ -9,6 +8,8 @@ chapters:
   - file: voorbereidende_opdracht_ontstaan_van_leven
   - file: bewoonbaarheid_van_planeten 
   - file: atmosfeer_exoplaneet
-  - file: expertgroep_prebiotische_chemie  
-  - file: opdracht_luijtenb
-
+  - file: expertgroep_prebiotische_chemie
+  - title: I opdracht Luijten b  
+    file: opdracht_luijtenb
+  - title: II Experiment adenine
+    file: experiment_damn
