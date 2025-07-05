@@ -12,7 +12,6 @@ sphinx:
 
 copyright: '2025' 
 
-baseurl: https://coenkd.github.io/Astro-online/
 
 parse:
   myst_enable_extensions:
@@ -41,6 +40,7 @@ repository:
   branch: master
 
 html:
+  baseurl: /Astro-online
   use_issues_button: true
   use_repository_button: true
   theme: sphinx_book_theme

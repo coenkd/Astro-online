@@ -1,0 +1,8 @@
+/* Altijd vetgedrukt maken van link met aria-label 'Home' */
+nav.bd-links a[aria-label="Home"] {
+    font-weight: bold !important;
+}
+
+
+
+
