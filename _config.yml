@@ -40,7 +40,7 @@ repository:
   branch: master
 
 html:
-  baseurl: /Astro-online
+  baseurl: /Astro-online/
   use_issues_button: true
   use_repository_button: true
   theme: sphinx_book_theme
