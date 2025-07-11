@@ -5,7 +5,7 @@
 
 ## 3.1 Evenwichtstemperatuur
 
-In de voorbereidende opdracht heb je een formule afgeleid waarmee je een ruwe schatting kunt geven van de temperatuur op een planeet. We gingen daarbij uit van stralingsevenwicht: het stralingsvermogen dat de planeet van de ster ontvangt is gelijk aan het stralingsvermogen dat de planeet zelf uitstraalt.
+In hoofdstuk 2 heb je een formule afgeleid waarmee je een ruwe schatting kunt geven van de temperatuur op een planeet. We gingen daarbij uit van stralingsevenwicht: het stralingsvermogen dat de planeet van de ster ontvangt is gelijk aan het stralingsvermogen dat de planeet zelf uitstraalt.
 
 De intensiteit $I$ die op de planeet valt is te berekenen met de kwadratenwet:
 
