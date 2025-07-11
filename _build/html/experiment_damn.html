@@ -1,0 +1,578 @@
+
+<!DOCTYPE html>
+
+
+<html lang="nl" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Experiment 1: stikstofbasesynthese in een model prebiotische reactie &#8212; NLT module Astrobiologie</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=1ba0b2db" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=fbc27867"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="_static/translations.js?v=e4d38c6a"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'experiment_damn';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Zoeken" href="search.html" />
+    <link rel="next" title="III Eindopdracht Exomars" href="opdracht_exomars.html" />
+    <link rel="prev" title="Opdracht biosignatures op Luyten b" href="opdracht_luijtenb.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="nl"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="NLT module Astrobiologie - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="NLT module Astrobiologie - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Zoeken" aria-label="Zoeken" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Zoeken</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Inhoud</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="intro.html"><strong>NLT module Astrobiologie</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="astrobiologie_opdracht.html">1. Introductie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="voorbereidende_opdracht_ontstaan_van_leven.html">2. Het ontstaan van leven</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bewoonbaarheid_van_planeten.html">3. Bewoonbaarheid van planeten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="atmosfeer_exoplaneet.html">4. De atmosfeer van een exoplaneet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="expertgroep_prebiotische_chemie.html">5. Prebiotische Chemie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="opdracht_luijtenb.html">Opdracht biosignatures op Luyten b</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Experiment 1: stikstofbasesynthese in een model prebiotische reactie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="opdracht_exomars.html">III Eindopdracht Exomars</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+<a href="https://github.com/coenkd/Astro-online/issues/new?title=Issue%20on%20page%20%2Fexperiment_damn.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button"
+   title="Open een probleem"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+
+</a>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download deze pagina">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/experiment_damn.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download het bronbestand"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Afdrukken naar pdf"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Volledig scherm"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Zoeken" aria-label="Zoeken" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Experiment 1: stikstofbasesynthese in een model prebiotische reactie</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Inhoud </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tabel-benodigdheden">Tabel: Benodigdheden</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#procedure">Procedure</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="experiment-1-stikstofbasesynthese-in-een-model-prebiotische-reactie">
+<h1>Experiment 1: stikstofbasesynthese in een model prebiotische reactie<a class="headerlink" href="#experiment-1-stikstofbasesynthese-in-een-model-prebiotische-reactie" title="Link to this heading">#</a></h1>
+<p>In dit experiment gebruik je stoffen die waarschijnlijk beschikbaar waren op de vroege aarde en waarmee een stikstofbase van DNA en RNA wordt gemaakt en met dunnelaagchromatografie (TLC) wordt geïdentificeerd. De reactanten die in dit experiment worden gebruikt, zijn formamide, ammoniumformaat en diaminomaleonitril (DAMN). De waarschijnlijke beschikbaarheid van formamide op de vroege aarde wordt ondersteund door de ontdekking van dit molecuul in kometen en andere interstellaire objecten. De andere reactanten - ammoniumformaat en DAMN - kunnen gemakkelijk worden gegenereerd uit formamide of waterstofcyanide (<span class="math notranslate nohighlight">\(HCN\)</span>).</p>
+<p>De onderstaande reactie illustreert hoe <span class="math notranslate nohighlight">\(HCN\)</span> kan worden gehydrolyseerd om formamide te vormen, dat verder kan worden gehydrolyseerd tot ammoniumformaat:</p>
+<p><img alt="formaatvorming" src="_images/fig1.png" /></p>
+<p>DAMN wordt gevormd uit vier HCN-moleculen in geconcentreerde oplossingen van HCN. Er zijn verschillende chemische tussenproducten in dit proces, hoewel het precieze mechanisme momenteel nog onbekend is:
+<img alt="damnvorming" src="_images/fig2.png" /></p>
+<section id="tabel-benodigdheden">
+<h2>Tabel: Benodigdheden<a class="headerlink" href="#tabel-benodigdheden" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Aantal stuks</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Formamide</p></td>
+<td><p>6 ml</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ammoniumformiaat</p></td>
+<td><p>1 g</p></td>
+</tr>
+<tr class="row-even"><td><p>Diaminomaleonitril (DAMN)</p></td>
+<td><p>0,1 g</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bereide oplossingen van adenine, cytosine en thymine</p></td>
+<td><p>1 van elk</p></td>
+</tr>
+<tr class="row-even"><td><p>Capillaire buis</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Reageerbuis</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>50 ml bekerglas</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Thermometer</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>Spatel</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Weegschuitje</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>Reageerbuis tang</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Reageerbuisrek</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>Glazen roerstaaf</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Maatcilinder van 10 ml of maatpipet</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>TLC-plaat</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>TLC ontwikkelkamer</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>Liniaal</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Potlood</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>Pincet</p></td>
+<td><p>1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="procedure">
+<h2>Procedure<a class="headerlink" href="#procedure" title="Link to this heading">#</a></h2>
+<p><strong>LEES ALLE INSTRUCTIES VOOR ELKE STAP.</strong></p>
+<p><strong>Stap 1</strong>: Merk een schone reageerbuis met je initialen.</p>
+<a class="reference internal image-reference" href="_images/Markering_voor_gevaarlijke_stoffen.jpg"><img alt="Gevaarlijke stoffen" class="align-left" src="_images/Markering_voor_gevaarlijke_stoffen.jpg" style="height: 20px;" />
+</a>
+<p><em>Opmerking: Ammoniumformaat, formamide en DAMN zijn irriterend voor de huid en ogen. Draag handschoenen en wees voorzichtig bij het werken met deze chemicaliën. Als een van deze chemicaliën in contact komt met je huid, was de plek onmiddellijk met zeep en water.</em></p>
+<p><strong>Stap 2</strong>: Weeg met een van de weegschuitjes 1,0 g ammoniumformaat en doe dit in je reageerbuis.<br />
+<strong>Stap 3</strong>: Meet met een maatcilinder 6,0 ml formamide af en voeg deze toe aan de reageerbuis die het ammoniumformaat bevat.<br />
+<strong>Stap 4</strong>: Roer de oplossing met een roerstaaf en observeer. Noteer je waarneming.<br />
+<strong>Stap 5</strong>: Dek je reageerbuis goed af en plaats deze gedurende 5 minuten in het zandbad (of de oven). Noteer de tijd en wanneer je je monster moet verwijderen.<br />
+<strong>Stap 6</strong>: Ga door naar stap 6 terwijl je monster zich in het zandbad bevindt. Weeg met je andere weegschuitje exact 0,1 g diaminomaleonitril (DAMN) af voor gebruik in stap 8.<br />
+<strong>Stap 7</strong>: Verwijder na 5 minuten met behulp van de reageerbuistang het monster uit het zandbad en plaats het in een reageerbuisrek. Als alle vaste ammoniumformaat is opgelost ga dan naar stap 8. Als er vast materiaal in de reageerbuis achterblijft, plaats je de buis nogmaals in het zandbad (3 minuten) voordat je verdergaat met stap 8.<br />
+<strong>Stap 8</strong>: Zodra de reageerbuis koel aanvoelt voeg je voorzichtig de DAMN die in stap 6 is afgewogen toe aan de reageerbuis. Meng grondig met een roerstaafje.<br />
+<strong>Stap 9</strong>: Plaats een stop op de reageerbuis en keer met je duim op de stop de reageerbuis meerdere keren om zodat alle DAMN van de zijkanten loskomt.<br />
+<strong>Stap 10</strong>: Plaats de reageerbuis 20 minuten terug in het zandbad of de oven. Noteer het tijdstip van invoer en bereken en noteer wanneer je de buis moet verwijderen. Terwijl je reageerbuis in het zand staat bereid je de TLC-plaat en kamer voor. Je hebt ruimte nodig voor vier plekken op je plaat - het reactiemonster en de stockoplossingen van adenine, cytosine en thymine.</p>
+<p><strong>Stap 11</strong>: Verwijder na 20 minuten met een reageerbuistang het monster uit het zand of oven en plaats het in een reageerbuisrek om af te koelen.<br />
+<strong>Stap 12</strong>: Wanneer de reageerbuis koel aanvoelt, breng je het afgedekte mengsel naar de zuurkast. Meet hier 1 mL van het reactiemengsel af in een spuit of maatcilinder en voeg toe in een klein bekerglas. Gooi het resterende reactiemengsel in de daarvoor bestemde afvalbak in de zuurkast.<br />
+<strong>Stap 13</strong>: Neem het monster mee terug naar je werkplek. Voeg 10 ml water toe aan het bekerglas met reactiemengsel en roer.</p>
+<p><strong>Stap 14</strong>: Spot de TLC-plaat:</p>
+<ol class="arabic simple">
+<li><p>Gebruik capillaire buizen om adenine, cytosine, thymine en het reactiemengsel aan te brengen. Gebruik voor elk monster een aparte buis.</p></li>
+<li><p>Doop de capillaire buis gelabeld ‘A’ in de adenine-oplossing en breng een klein vlekje aan bij het corresponderende streepje op de plaat.</p></li>
+<li><p>Herhaal dit voor cytosine (C), thymine (T) en het reactiemengsel (R).</p></li>
+<li><p>Laat de stippen drogen en bekijk eventueel onder een UV-lamp. Markeer zichtbare stippen met potlood.</p></li>
+</ol>
+<p><strong>Stap 15</strong>: Ontwikkel de TLC-plaat:</p>
+<ol class="arabic simple">
+<li><p>Controleer of het vloeistofniveau in de ontwikkelkamer onder de oorsprongslijn ligt.</p></li>
+<li><p>Plaats de TLC-plaat voorzichtig in de kamer tegen de wand zonder filtreerpapier.</p></li>
+<li><p>Dek de kamer af met folie of een horlogeglas.</p></li>
+<li><p>Verwijder de plaat zodra het front 1 cm van de bovenkant is.</p></li>
+<li><p>Markeer het oplosmiddelfront met potlood.</p></li>
+</ol>
+<p><img alt="TLC plaat" src="_images/fig5.png" /> <img alt="ontwikkelde TLC" src="_images/fig6.png" /></p>
+<p><strong>Stap 16</strong>: Droog de TLC-plaat en visualiseer de vlekken met UV-licht. Markeer de contouren voorzichtig met potlood.<br />
+<strong>Stap 17</strong>: Bereken de Rf-waarden:<br />
+<span class="math notranslate nohighlight">\(R_f\)</span> = afstand verplaatst door molecuul / afstand oplosmiddelfront vanaf startlijn.<br />
+Voorbeeld: <span class="math notranslate nohighlight">\(R_f\)</span> = 5,5 cm / 6,0 cm = 0,92</p>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="opdracht_luijtenb.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">vorige</p>
+        <p class="prev-next-title">Opdracht biosignatures op Luyten b</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="opdracht_exomars.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">volgende</p>
+        <p class="prev-next-title">III Eindopdracht Exomars</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Inhoud
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tabel-benodigdheden">Tabel: Benodigdheden</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#procedure">Procedure</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+Door Coen Klein Douwel
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  
+        <div style="text-align: left; margin-top: 1em;">
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">
+                <img alt="Creative Commons Licentie" src="_static/cc.png" style="height: 40px;" />
+            </a>
+           
+        </div>
+    
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
