@@ -1,4 +1,4 @@
-# 3. Bewoonbaarheid van planeten test
+# 3. Bewoonbaarheid van planeten
 
 <span style="color: green;"><em>expertgroep natuurkunde</em></span>
 
