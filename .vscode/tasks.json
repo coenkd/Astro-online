@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Sphinx HTML build",
+      "type": "shell",
+      "command": "/home/coen/myst_env/bin/python",
+      "args": [
+        "-m", "sphinx",
+        "-b", "html",
+        "${workspaceFolder}",
+        "${workspaceFolder}/docs"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
+
