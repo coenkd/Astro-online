@@ -81,8 +81,9 @@ Maak een **PowerPoint-presentatie** (4–6 dia's) waarin je je bevindingen prese
 1. **Introductie**: Wat is Luyten b en waarom is deze planeet interessant?
 2. **Berekening**: Bewoonbare zone + vergelijking met werkelijke afstand.
 3. **Spectroscopie en biosignatures**: Hoe onderzoek je de atmosfeer?
-4. **JWST**: Wat kan deze telescoop meten?
-5. **Conclusie**: Wat kun je zeggen over de leefbaarheid van Luyten b?
+4. **Gunstige en ongunstige factoren voor leven** op Luyten b. 
+5. **JWST**: Wat kan deze telescoop meten?
+6. **Conclusie**: Wat kun je zeggen over de leefbaarheid van Luyten b?
 
 ---
 
