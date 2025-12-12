@@ -57,14 +57,13 @@ Welke **biosignatures** kunnen wijzen op leven, zoals:
 Zoek op bij welke **spectrale absorptielijnen** deze biosignatures te detecteren zijn met de **JWST**.
 
 ### d. Onderzoek welke factoren gunstig zijn voor het bestaan van leven op dit hemellichaam, en welke factoren ongunstig zijn. Denk hierbij aan:
-●	externe energiebronnen (straling van moederster, getijdenkracht, restwarmte, …)
-●	temperatuur, aanwezigheid van vloeibaar water
-●	energiebronnen voor levensvormen (fotosynthese, chemosynthese, …)
-●	geologie: klimaat, bodemgesteldheid, tidal locking, …
+- externe energiebronnen (straling van moederster, getijdenkracht, restwarmte, …)
+-temperatuur, aanwezigheid van vloeibaar water
+- energiebronnen voor levensvormen (fotosynthese, chemosynthese, …)
+- geologie: klimaat, bodemgesteldheid, tidal locking, …
 
 
-## 3. De rol van de James Webb Space Telescope (JWST)
-
+ 
 ### a. Bijzonder aan JWST
 Wat maakt JWST geschikt om exoplaneten zoals Luyten b te onderzoeken?
 
