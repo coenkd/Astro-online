@@ -13,6 +13,7 @@ bewoonbaarheid_van_planeten
 atmosfeer_exoplaneet
 expertgroep_prebiotische_chemie
 opdracht_luijtenb
+opdracht_Enceladus
 experiment_damn
 opdracht_exomars
  
