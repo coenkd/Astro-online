@@ -62,8 +62,7 @@ Zoek op bij welke **spectrale absorptielijnen** deze biosignatures te detecteren
 - energiebronnen voor levensvormen (fotosynthese, chemosynthese, …)
 - geologie: klimaat, bodemgesteldheid, tidal locking, …
 
-
- 
+## 3. James Webb Space Telescope (JWST)
 ### a. Bijzonder aan JWST
 Wat maakt JWST geschikt om exoplaneten zoals Luyten b te onderzoeken?
 
