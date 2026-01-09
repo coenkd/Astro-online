@@ -90,7 +90,7 @@ $$
 
 ### Opdracht 8
 
-Hoeveel fotonen moeten er gemeten worden om de natriumlijnen van HD189733b te kunnen onderscheiden van de ruis? Pak de piek bij 589 $nm$ en neem een breedte van (= breedte lijn). Gebruik de berekende fluxdichtheid van opdracht 4.
+Hoeveel fotonen moeten er gemeten worden om de natriumlijnen van HD189733b te kunnen onderscheiden van de ruis? Pak de piek bij 589 $nm$ en neem een breedte van 2 Angstrom (=0,2 nm) (= breedte lijn). Gebruik de berekende fluxdichtheid van opdracht 4.
 
 Hoe lang moet er gemeten worden om dit niveau te bereiken?
 
